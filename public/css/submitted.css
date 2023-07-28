@@ -1,0 +1,16 @@
+/* add more here */
+
+h2{
+    text-align: center;
+    border: solid;
+}
+
+body{
+    text-align: left;
+    background-color: aqua;
+    margin: 50px;
+}
+
+.button{
+    text-align: center;
+}

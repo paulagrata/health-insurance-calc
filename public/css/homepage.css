@@ -1,0 +1,22 @@
+.content {
+    height: 300px;
+    width: 700px;
+    
+
+    position: fixed;
+    top: 50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-300px;
+}
+
+h1{ text-align:center; }
+.butCenter {text-align:center}
+
+button{font-size: 30px; }
+body{background-color: aquamarine;}
+
+p{font-size: 160%;}
+
+li{font-size: 130%;}
+

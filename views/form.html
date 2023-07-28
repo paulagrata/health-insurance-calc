@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--
+  https://www.w3schools.com/html/html_forms.asp - uses the form to send data 
+ 
+-->
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Risk Form</title>
+
+
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+
+<body>
+
+  <form id="formbody" action="/form" method="post">
+
+    <div class="form">
+
+      <div class="title">Welcome</div>
+      <div class="subtitle">Health-Risk-Calculator</div>
+
+      <div class="input-container ic1">
+        <input name="height" id="height" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="height" class="placeholder">Height</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="weight" id="weight" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="weight" class="placeholder">Weight</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="age" id="age" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="age" class="placeholder">Age</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="systolic" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="systolic" class="placeholder">Systolic</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="diastolic" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="diastolic " class="placeholder">Diastolic</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="diabetes" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="diabetes" class="placeholder">Diabetes</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="cancer" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="cancer" class="placeholder">Cancer</label>
+      </div>
+
+      <div class="input-container ic2">
+        <input name="alzheimers" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="alzheimers" class="placeholder">Alzheimer’s</label>
+      </div>
+
+      <button class="submit" >submit</button>
+
+      <!--
+      <button class="submit" onclick="errorAlert()">submit</button> //////
+      <input type="button"  class="submit" onclick="errorAlert()" value="Submit form">
+      -->
+
+    </div>
+
+  </form>
+
+</body>
+
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--
+    https://www.zshawnsyed.com/2015/04/30/output-json-in-handlebars/
+    https://www.py4u.net/discuss/279628
+    how to output the data
+-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/submitted.css">
+
+    <title>Risked Output</title>
+
+</head>
+
+<body>
+    <!--someone do the style and other stuff
+        ***to see the webpage go to localhost:3000/submitted    ***
+    -->
+
+
+    <h2>Health Insurance Risk Output</h2>
+
+    <div>
+        <h3>User Risk Data:</h3>
+        <p>Overall Risk Category: {{data.riskCategory}}</p>
+
+
+        <p>Blood pressure: {{data.blood}}</p>
+
+        <p>Body Mass Index: {{data.bmi}}</p>
+
+        <p>Total Risk points of user: {{data.points}}</p>
+        
+    </div>
+
+
+    <div class="button">
+        <p>evaluate another customer</p>
+        <!-- do a button the send the  back the the form page -->
+        <button onclick="document.location='/form'">evaluate another custormer</button>
+
+        <!--go back home back with button-->
+
+        <button onclick="document.location='/'">back to home page</button>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
