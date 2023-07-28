@@ -1,5 +1,5 @@
 # Health Insurance Calculator
-## EZScrumEZGo: Chat Application Group Project
+## EZScrumEZGo: Group Project
 
 ## need
 - node.js
