@@ -1,18 +1,18 @@
 body {
   align-items: center;
-  background-color: #000;
+  background-color: #393276;
   display: flex;
   justify-content: center;
   height: 150vh;
 }
   
 .form {
-  background-color: #15172b;
+  background-color: #0D083B;
   border-radius: 20px;
   box-sizing: border-box;
   height: 900px;
   padding: 20px;
-  width: 400px;
+  width: 800px;
 }
   
 .title {
@@ -46,7 +46,7 @@ body {
 }
   
 .input {
-  background-color: #303245;
+  background-color: #1F1959;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
@@ -59,7 +59,7 @@ body {
 }
   
 .cut {
-  background-color: #15172b;
+  background-color: #0D083B;
   border-radius: 10px;
   height: 20px;
   left: 20px;
@@ -105,7 +105,7 @@ body {
 }
   
 .submit {
-  background-color: #08d;
+  background-color: #5B5494;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
